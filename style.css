@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f6f5f5;
+}
+
+main{
+    background-color: #d3e0ea;
+    color: #d3e0ea;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-style: bold;
+    color: #276678;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #276678;
+}
+
+.form-div{
+    background-color: #1687a7;
+    display: block;
+    max-width: 750px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-radius: 5px;
+}
+
+form{
+    margin: auto;
+    display: block;
+    max-width: 80%;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    font-family: inherit;
+    font-size: 12px;
+    border: transparent;
+    border-radius: 3px;
+
+}
+
+.form-group{
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.label{
+    display: flex;
+    margin-bottom: 7px;
+}
+#dropdown-label{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: inherit;
+    color: #d3e0ea;
+    
+}
+
+#dropdown{
+    width: 100%;
+    height: 30px;
+    font-size: 12;
+    font-family: inherit;
+    border-radius: 3px;
+    padding-bottom: 0px;
+}
+
+.radio-label input{
+    width: 20px;
+    position: relative;
+    top: 6px;
+    padding-right: 50px;
+}
+
+.radio-label span{
+    margin-left: 7px;
+    font-size: 18px;
+}
+#radio{
+    padding-bottom: 0px;
+}
+
+.checkbox-label input{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.checkbox-label{
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.submit{
+    width: 100%;
+    font-family: inherit;
+    height: 40px;
+    background-color: #d3e0ea;
+    color: #276678;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.submit:hover{
+    background-color: #276678;
+    color: #d3e0ea;
+}
